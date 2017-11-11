@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Envoie</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<fieldset>
+    <form method="post" action="upload.php" enctype="multipart/form-data" class="form">
+
+
+        <label>Fichier </label> <input type="file" name="file[]" multiple>
+        <input type="submit" name="upload" value="Envoyer le fichier">
+    </form>
+
+</fieldset>
+<a class="add"><img src="img/plus.png" alt="plus" ></a>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/comp.js"></script>
+</body>
+</html>
